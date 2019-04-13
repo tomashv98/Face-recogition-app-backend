@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "env-cmd ./config/dev.env nodemon server.js",
+    "test": "env-cmd ./config/test.env nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.2",
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "clarifai": "^2.9.0",
+    "cors": "^2.8.5",
+    "env-cmd": "^8.0.2",
+    "express": "^4.16.4",
+    "express-session": "^1.16.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.16.3",
+    "mongoose": "^5.5.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1",
+    "pg": "^7.9.0",
+    "validator": "^10.11.0"
+  }
+}
